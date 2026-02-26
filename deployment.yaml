@@ -26,6 +26,7 @@ metadata:
   name: app-py-test-service
 spec:
   selector:
+    type: NodePort
     app: app-py-test
   ports:
     - port: 80
