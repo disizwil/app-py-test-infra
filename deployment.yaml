@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: disizwil365/mon-app-devsecops:latest # Ton image sur Docker Hub
+        image: disizwil365/mon-app-devsecops:v7
         ports:
         - containerPort: 5000
 ---
